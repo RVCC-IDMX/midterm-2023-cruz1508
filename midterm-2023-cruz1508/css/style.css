@@ -1,0 +1,58 @@
+body { 
+    
+    background-color: rgb(209, 136, 136);
+    font-family:Nunito;
+    font-family:Raleway;
+}
+h1, h2, h3, h4, h5, h5, h6 {
+    font-family:Nunito;
+    text-align:center;
+    font-size: 40pt;
+}
+h1 {
+    font-size: 20pt; 
+    text-align: center;
+}
+#Introduction {
+max-width: 50%;
+text-align: center;
+
+}
+header {
+    text-align: center;
+
+}
+#Bio {
+    text-align: center;
+    
+
+}
+
+#WorkStation {
+
+text-align: center;
+
+}
+#CustomerReview {
+    text-align: center;
+
+}
+
+#Contact {
+text-align: center;
+background-color:rgb(78, 130, 197)
+}
+
+#Gallery {
+display: flex;
+justify-content: space-around;
+    max-width:100%;
+    max-height:100%;
+    text-align: center;
+    background-color:rgb(78, 130, 197)
+}
+
+#Gallery figure {
+text-align:center ;
+
+}
