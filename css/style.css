@@ -13,10 +13,11 @@ h1 {
     font-size: 20pt; 
     text-align: center;
 }
-#Introduction {
+#Intro {
 max-width: 50%;
 text-align: center;
-
+margin-left:auto;
+margin-right:auto;
 }
 header {
     text-align: center;
@@ -33,9 +34,18 @@ header {
 text-align: center;
 
 }
-#CustomerReview {
-    text-align: center;
+#customerimg {
 
+    display: flex;
+    justify-content: space-around;
+
+}
+#CustomerReview {
+    text-align:center;
+    display: flex;
+}
+#CustomerReview figcaption {
+    margin-top:2em;
 }
 
 #Contact {
@@ -50,9 +60,16 @@ justify-content: space-around;
     max-height:100%;
     text-align: center;
     background-color:rgb(78, 130, 197)
+    
 }
 
 #Gallery figure {
 text-align:center ;
+
+}
+
+#Footer {
+text-align: center;
+
 
 }
